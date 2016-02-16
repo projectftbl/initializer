@@ -1,7 +1,7 @@
 var should = require('chai').should();
 
 var sut = function() {
-  return require('../lib')('incept', __dirname + '/initializers').apply(null, arguments);
+  return require('../lib').initializer('initializer', __dirname + '/initializers').apply(null, arguments);
 };
 
 describe('Initializer', function() {
