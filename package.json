@@ -7,8 +7,8 @@
     "test": "gulp test"
   },
   "engines": {
-    "node": "0.12.x",
-    "npm": "2.x"
+    "node": ">= 0.12.x",
+    "npm": ">= 2.x"
   },
   "author": "Johnny Hall",
   "license": "MIT",
@@ -19,6 +19,7 @@
   "dependencies": {
     "@ftbl/configuration": "^1.0.0",
     "@ftbl/log": "^1.0.0",
+    "bluebird": "^3.3.1",
     "chalk": "^1.1.0"
   },
   "devDependencies": {
