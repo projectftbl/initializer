@@ -1,4 +1,4 @@
-## @ftbl/initializer
+## @recipher/initializer
 
 Initializer helper.
 
@@ -8,7 +8,7 @@ Locate your initializers in the ```lib/initializers``` folder. Given an initiali
 
 ```javascript
 
-var initialize = require('@ftbl/initializer');
+var initialize = require('@recipher/initializer');
 
 initialize('routes');
 ```
